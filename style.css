@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* text color = #707070
+semi-white = #EDEDED */
+
+
+#nav-list{
+
+}
+#profile-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid grey;
+}
