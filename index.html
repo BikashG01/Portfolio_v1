@@ -4,25 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-v0oHuJZYQ05cv3oV6cF8pLRE9Xz4HgDCYqdpP5XscmJl1QrUWESwwCmrYbdMRKHuvV+3L+gQr+pt+3LrC/7TGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Bikash</title>
 </head>
 <body>
     <header>
         <nav>
             <ul id="nav-list">
-                <li><a href="#">Bikash</a></li>
-                <li><a href="#">Project</a></li>
-                <li><a href="#">Contact Me</a></li>
+                <a href="index.html">Home</a>
+                <a href="#">Project</a>
+                <a href="#">Blog</a>
             </ul>
         </nav>
     </header>
    
     <section>
         <div id="profile-container">
-            <div><img src="imgs/profile_img_nobg.jpg" alt="" srcset=""></div>
-            <div>
-                <h2>Hi</h2>
+           <div id="profile-id" class="profile-div">
+            <div class="img-container">
+                <img class="profile-img" src="imgs/profile_img_nobg.jpg" alt="">
             </div>
+        
+            <h4>Hi, my name is Bikash Gurung</h4>
+            <p id="profile-desc">I am London base computer science student.</p>
+
+            <ul class="social-list">
+              <li><a href="#">facebook</a></li>
+              <li><a href="#">Github</a></li>
+              <li><a href="#">email</a></li>
+              <li><a href="#">Youtube</a></li>
+            </ul>
+           </div>
+           <div id="project-id" class="profile-div">
+            <div id="project-div">
+                <h3>Projects</h3>
+                <ul class="project-list">
+                    <li>
+                        <a href="">Design</a>
+                    </li>
+                    <li>
+                        <a href="">Development</a>
+                    </li>
+                </ul>
+            </div>
+          
+            <div id="blog-div">
+                <h3>Blog</h3>
+
+                <div id="post-container">
+                    <div id="blog-img-box" class="post-content-box"> 
+                        <img class="blog-img" src="imgs/dummy_blog_img.jpeg" alt="">
+                    </div>
+                    <div class="post-content-box">
+                        <h5>23th Dec 2023</h5>
+                        <h4>Design Algorithms</h4>
+                        <p>Design and Analysis of project is main requirement</p>
+
+                        <button>Read More</button>
+
+
+                    </div>
+                </div>
+            </div>
+           
+        
+           </div>
         </div>
     </section>
     
