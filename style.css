@@ -6,6 +6,8 @@
 body{
     background-color: #ffffff;
     font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+
 }
 
 
@@ -36,7 +38,7 @@ semi-white = #EDEDED */
 nav{
     background-color: #ffffff;
     justify-content: center;
-    padding: 20px;
+    padding: 30px 0px;
     display: flex;
 }
 nav a{
@@ -47,6 +49,9 @@ nav a{
     font-weight:300;
 }
 
+nav a:hover{
+    color: #599CBF;
+}
 
 
 #profile-container{
@@ -54,35 +59,48 @@ nav a{
 }
 .profile-div{
     flex: 1;
-    padding: 100px;
+    padding: 80px;
     text-align: center;
 }
 
 
+#project-div{
+    padding-top: 50px;
+}
 
 #profile-desc{
     font-size: 16px;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 80px;
+    letter-spacing: 1px;
+    line-height: 1.5;
+
 }
 
 #project-id{
     text-align: left;
 }
 #profile-id > h4{
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 40px;
+   
+    letter-spacing: 1px;
+    font-size: 24px;
 }
 .project-list{
     list-style-type: none;
-    padding: 0;
+     padding: 10px 0px 10px 0px;
+     
+}.project-list li{
+    padding: 10px 0px 10px 0px;
 }
 .project-list  a{
     list-style: none;
-    color: #599CBF;
+    color: #4A4646;
     text-decoration: none;
-    
+}
+.project-list a:hover{
+    color: #599CBF;
 }
 
 
@@ -94,20 +112,26 @@ nav a{
 .social-list li {
     display: inline-block;
     text-decoration: none;
+   
+    
 
 }
 .social-list li a:hover{
     color: #599CBF;
 }
-.social-list a{
+.social-list li a{
     text-decoration: none;
-    color: #4A4646;
+    color:#599CBF;
    
+}
+.social-icon:hover {
+    color: #599CBF !important;
 }
 
 #copyright-link{
     text-decoration: none;
     color: #4A4646;
+    letter-spacing: 1px;
 }
 #copyright-link:hover{
     color: #599CBF;
@@ -124,12 +148,24 @@ nav a{
 }
 .post-content-box > p{
     padding-top: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 20px;
 }
-
+#post-date{
+    font-size: 16px;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+#post-title{
+    font-size: 24px;
+    letter-spacing: 1px;
+}
 .post-content-box > h4{
     padding-top: 10px;
    
+}
+#post-desc{
+    letter-spacing: 1px;
+    line-height: 1.5;
 }
 #blog-div{
     padding-top: 100px;
@@ -152,13 +188,14 @@ nav a{
 
 #read-btn{
     background: transparent;
-    color: #599CBF;
+    color: #4A4646;
     border: none;
     font-size: 16px;
+    letter-spacing: 1px;
     cursor: pointer;
 }
 #read-btn:hover{
-color: #4A4646;
+    color: #599CBF;
 }
 .social-icon{
     font-size: 24px;
